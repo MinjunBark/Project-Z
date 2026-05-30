@@ -1,0 +1,48 @@
+# AI context & local settings (contains tokens, personal config, operating rules)
+.claude/
+
+# Environment & Secrets
+**/.env
+.env.*
+!*-template.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs (local runtime logs — committed logs live in 08-Logs/ via explicit add)
+*.log
+
+# Node (if ever used)
+node_modules/
+npm-debug.log*
